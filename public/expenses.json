@@ -1,0 +1,7 @@
+[
+  { "id": 1, "title": "Groceries", "amountCents": 4250, "category": "food" },
+  { "id": 2, "title": "Metro pass", "amountCents": 3000, "category": "transport" },
+  { "id": 3, "title": "Rent", "amountCents": 90000, "category": "housing" },
+  { "id": 4, "title": "Cinema", "amountCents": 1200, "category": "fun" },
+  { "id": 5, "title": "Coffee", "amountCents": 450, "category": "food" }
+]

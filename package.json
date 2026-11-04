@@ -1,0 +1,19 @@
+{
+  "name": "elm-expenses",
+  "version": "1.0.0",
+  "description": "Small Elm 0.19 expense tracker showing the purely functional paradigm in practice",
+  "scripts": {
+    "build": "elm make src/Main.elm --optimize --output=public/main.js",
+    "start": "npm run build && python3 -m http.server 8000 -d public",
+    "test": "elm-test",
+    "format": "elm-format --yes src tests"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "elm": "^0.19.1-6",
+    "elm-format": "^0.8.8",
+    "elm-test": "^0.19.1-revision17"
+  },
+  "private": true
+}
